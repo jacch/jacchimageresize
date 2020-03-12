@@ -1,3 +1,4 @@
+#!/bin/bash
 cd $1
 mkdir -p 320
 mogrify -resize 320x -path 320 *.png
