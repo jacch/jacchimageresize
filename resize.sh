@@ -7,8 +7,8 @@ mkdir -p 100
 mogrify -resize 100x -path 100 *.png
 mkdir -p 320
 mogrify -resize 320x -path 320 *.png
-mkdir -p 320
-mogrify -resize 320x -path 320 *.png
+mkdir -p 480
+mogrify -resize 480x -path 480 *.png
 mkdir -p 512
 mogrify -resize 512x -path 512 *.png
 mkdir -p 1024 
