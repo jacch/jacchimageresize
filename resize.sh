@@ -1,5 +1,6 @@
 #!/bin/bash
 cd $1
+mogrify -format png *.*
 mkdir -p 320
 mogrify -resize 320x -path 320 *.png
 mkdir -p 512
